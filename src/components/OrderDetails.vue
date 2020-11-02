@@ -65,6 +65,8 @@
                 <b-form-select
                   v-model="contact"
                   :options="contactPeople"
+                  value-field="id"
+                  text-field="name"
                   id="contactPerson"
                   name="contactPerson"
                   :state="getValidationState(validationContext)"

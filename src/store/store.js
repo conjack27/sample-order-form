@@ -18,6 +18,19 @@ export default new Vuex.Store({
                 id: 3,
                 name: "Client C"
             }],
+        contactPeople: [
+            {
+                id: 1,
+                name: "Contact A"
+            },
+            {
+                id: 2,
+                name: "Contact B"
+            },
+            {
+                id: 3,
+                name: "Contact C"
+            }],
         client: '',
         orderId: 0,
         orderDate: '',
